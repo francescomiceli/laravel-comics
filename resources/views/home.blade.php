@@ -15,6 +15,8 @@
 <body>
 
 @include('header')
+@include('footer')
+
 
 
 
