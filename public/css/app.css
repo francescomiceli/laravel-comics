@@ -1,0 +1,13 @@
+#strip_one {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+* {
+  background-color: red;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
