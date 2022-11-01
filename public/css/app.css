@@ -7,14 +7,12 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .container_nav {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid blue;
   justify-content: space-between;
   align-items: center;
 }
@@ -32,13 +30,21 @@
 
 .container_nav ul {
   list-style-type: none;
-  border: 1px solid green;
   display: flex;
   padding: 10px;
 }
 
 .container_nav ul li {
   padding: 10px;
+  margin: 0 10px;
+}
+
+.search {
+  display: flex;
+}
+
+.search p {
+  margin-right: 10px;
 }
 
 * {
@@ -46,5 +52,10 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
