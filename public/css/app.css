@@ -47,6 +47,12 @@
   margin-right: 10px;
 }
 
+.jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 400px;
+  background-position: top center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -57,5 +63,9 @@
 a {
   text-decoration: none;
   color: black;
+}
+
+img {
+  width: 100%;
 }
 
