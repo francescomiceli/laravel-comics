@@ -4,11 +4,6 @@
   text-align: right;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .container_nav {
   display: flex;
   max-width: 1200px;
@@ -68,5 +63,33 @@ a {
 
 img {
   width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-img {
+  background-image: url("/images/footer-bg.jpg");
+  height: 400px;
+  background-position: top center;
+  background-size: cover;
+}
+
+.bg-logo img {
+  right: 0;
+  width: 400px;
+}
+
+.container_footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid red;
+}
+
+h3 {
+  color: white;
 }
 
