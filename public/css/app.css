@@ -51,6 +51,7 @@
   background-image: url("/images/jumbotron.jpg");
   height: 400px;
   background-position: top center;
+  background-size: cover;
 }
 
 * {
