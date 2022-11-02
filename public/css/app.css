@@ -70,6 +70,16 @@ img {
   margin: 0 auto;
 }
 
+.container_2 {
+  width: 25%;
+  padding: 10px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .bg-img {
   background-image: url("/images/footer-bg.jpg");
   height: 400px;
@@ -86,7 +96,6 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  border: 1px solid red;
 }
 
 h3 {
